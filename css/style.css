@@ -1,0 +1,115 @@
+body {
+  max-width: 1920px;
+  text-decoration: none;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-color:lavender;
+}
+
+html {
+  font-size: calc(100vh / 1283);
+}
+
+/* section1 */
+
+.section1 {
+  height: 800px;
+  text-align: center;
+}
+.title {
+  line-height: 5rem;
+}
+.title-sm {
+  font-weight: 700;
+}
+.title-big {
+  font-size: 2rem;
+  font-weight: 900;
+  
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* flex-start */
+  translate: 0 5% 0 0;
+}
+.item img {
+  width: 20rem;
+  height: 20rem;
+  margin: 5rem 3rem;
+}
+.bold {
+  display: block;
+  line-height: 3rem;
+  font-weight: bold;
+}
+.item p {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width:800px) and (max-width:1200px) {
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .section2 > img {
+    width: 1000px;
+  }
+}
+@media screen and (max-width:800px) {
+  section, .item {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/* section2 */
+.section2 {
+  /* position: relative; */
+  
+}
+
+.section2 > img {
+  /* background-image: url(/img/research.jpg); */
+  /* background-size: cover; */
+  width: 1920px;
+  height: 20rem;
+  margin: 0 10rem;
+  object-fit: cover;
+}
+.over {
+  line-height: 3.8rem;
+  transform: translate(20%, -130%);
+  color: white;
+  /* translate: 13% -130%; */
+}
+.section2 h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.section2 p {
+  font-size: 2rem;
+  font-weight: 800;
+}
+button {
+  width: 10rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: white;
+  border: 1px solid white;
+  background-color:transparent;
+  transition: all 0.2s;
+}
+.researchBtn:hover {
+  color: black;
+  background-color: white;
+}
