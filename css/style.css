@@ -1,7 +1,7 @@
 body {
   max-width: 1920px;
   text-decoration: none;
-  font-family: sans-serif;
+  /* font-family: 'Noto Sans KR', sans-serif; */
   font-weight: normal;
   font-style: normal;
   font-size: 10px;
@@ -80,11 +80,11 @@ html {
 }
 .section2 h3 {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 .section2 p {
   font-size: 2rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 a {
   width: 10rem;
