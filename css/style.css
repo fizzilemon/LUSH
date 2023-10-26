@@ -74,10 +74,9 @@ html {
   object-fit: cover;
 }
 .over {
-  line-height: 3.8rem;
-  transform: translate(20%, -130%);
+  line-height: 5rem;
+  transform: translate(20%, -120%);
   color: white;
-  /* translate: 13% -130%; */
 }
 .section2 h3 {
   font-size: 1.5rem;
@@ -87,15 +86,20 @@ html {
   font-size: 2rem;
   font-weight: 800;
 }
-button {
+a {
   width: 10rem;
   height: 4rem;
-  margin-top: 1.5rem;
+  padding: 1.5rem;
   font-size: 1rem;
+  text-decoration: none;
   color: white;
   border: 1px solid white;
-  background-color:transparent;
   transition: all 0.2s;
+  box-sizing: border-box;
+}
+button {
+  /* background-color:transparent; */
+  color: inherit;
 }
 .researchBtn:hover {
   color: black;
