@@ -5,24 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/section2.css">
+  <link rel="stylesheet" href="./css/section3.css">
   <link rel="stylesheet" href="./css/reset.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script>
-
-  <title>Document</title>
+  <title>LUSH</title>
 </head>
 <body>
- 
-  <main>
+  <div>
+    <h1>LUSH</h1>
+    <ul>
+      <li>러쉬소개</li>
+      <li>캠페인</li>
+      <li>스파</li>
+      <li>매장언내</li>
+      <li>B2B</li>
+    </ul>
+  </div>
+
     <section class="section1"> <!-- 섹션1본문 -->
-      <div class="title">
+      <h2 class="title">
         <p class="title-sm">미리보는 러쉬</p>
         <p class="title-big">러쉬에서 만나는 다채로운 서비스</p>
-      </div>
+      </h2>
   
       <div class="item">
         <div class="item1">
           <img src="./img/img1.jpg" alt="스마트폰 배경에 러쉬 멤버쉽에 관한 이미지를 띄워놓음">
-          <b class="bold">디지털 덕찌</b>
+          <h2 class="bold">디지털 덕찌</h2>
           <p>
             러쉬 만의 멤버십 뱃지 프로그램 <br>
             덕찌력을 쌓아보세요! <br>
@@ -31,7 +41,7 @@
         </div>
         <div class="item2">
           <img src="./img/img2.jpg" alt="러쉬의 스크럽 제품 이미지">
-          <b class="bold">회원 선물</b>
+          <h2 class="bold">회원 선물</h2>
           <p>
             공식 앱 회원에게만 제공하는 <br>
             365일 신선한 스마트 샘플과 <br>
@@ -40,7 +50,7 @@
         </div>
         <div class="item3">
           <img src="./img/img3.jpg" alt="러쉬 제품이 담긴 선물 상자 구성 이미지">
-          <b class="bold">선물하기</b>
+          <h2 class="bold">선물하기</h2>
           <p>
             주소와 연락처를 몰라도 <br>
             향기로운 선물을 메시지 카드와 함께 <br>
@@ -53,12 +63,72 @@
     <section class="section2">
       <img src="/img/research.jpg" alt="배너 이미지">
       <div class="over">
-        <h3>설문조사</h3>
+        <h2>설문조사</h2>
         <p>여러분의 러쉬 경험을 남겨주세요!</p>
         <a href="https://weare.lush.co.kr/" class="researchBtn" type="button" target="_blank" title="새 창으로 열기">바로 참여하기</a>
       </div>
     </section>
-  </main>
 
+    <section class="section3">
+      <div class="grid">
+        <div class="grid1">
+          <img src="/img/lush_info.jpg" alt="">
+          <h2>러쉬 소개</h2>
+          <p>
+            러쉬는 자연에서 얻은 신선한 재료와 동물실험을 하지 않는 <br>
+            정직한 재료를 사용하여 모든 제품을 손으로 만듭니다.
+          </p>
+        </div>
+        <div class="grid2">
+          <img src="/img/lush_history.jpg" alt="">
+          <h2>러쉬 역사</h2>
+          <p>
+            1955년, 러쉬는 영국의 항구도시 풀(Poole)에서 <br>
+            탄생했습니다.
+          </p>
+        </div>
+        <div class="grid3">
+          <img src="/img/lush_value.jpg" alt="">
+          <h2>이념과 가치</h2>
+          <p>
+            신선한 과일과 채소, 최상의 에센셜 오일, 그리고 안전한 원료를 <br>
+            사용하여 효과적인 제품을 만들 수 있다는 것을 믿습니다.
+          </p>
+        </div>
+        <div class="grid4">
+          <img src="/img/lush_brand.jpg" alt="">
+          <h2>브랜드 정책</h2>
+          <p>
+            동물과 자연과 사람이 조화롭게 공존하는 세상을 바라는 <br>
+            러쉬 비즈니스의 중심에는 <br>
+            강력한 브랜드 윤리가 자리 잡고 있습니다. <br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section4">
+      <div>
+        <img src="/img/soap.jpg" alt="러쉬 제품 중 비누 이미지">
+      </div>
+      <div>
+        <h2>기부와 나눔</h2>
+        <p>
+          우리의 글로벌 <br>
+          기부 생태계는 <br>
+          광범위합니다.
+        </p>
+        <a href="javascript:return false;">자세히 보기</a>
+      </div>
+    </section>
 </body>
 </html>
+
+<!-- 
+높이 설정을 하면 반응형 안됨
+
+위드 100
+가변처리 하기
+고정값 풀기
+
+ -->
