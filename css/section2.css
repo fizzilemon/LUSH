@@ -1,6 +1,6 @@
 /* section2 */
 .section2 > img {
-  width: 100%;
+  width: 100vh;
   /* height: 20rem; */
   margin: 0 10rem;
   object-fit: cover;
@@ -33,7 +33,7 @@ button {
   /* background-color:transparent; */
   color: inherit;
 }
-.researchBtn:hover {
+.btn__research:hover {
   color: black;
   background-color: white;
 }

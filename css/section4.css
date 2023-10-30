@@ -1,0 +1,37 @@
+.section4 {
+  display: flex;
+}
+.section4 img {
+  width: 50vh;
+}
+.sec4__div-tex {
+  padding: 2.5rem;
+}
+.sec4__div-tex h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 4rem;
+  top: 0;
+}
+.sec4__div-tex p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.section4 a {
+  width: 10rem; 
+  height: 4rem;
+  line-height: 10rem;
+  padding: 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+.btn__closer:hover {
+  color: white;
+  background-color: black;
+}
