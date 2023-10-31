@@ -1,5 +1,7 @@
 .section4 {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section4 img {
   width: 50vh;
@@ -34,4 +36,10 @@
 .btn__closer:hover {
   color: white;
   background-color: black;
+}
+
+@media screen and (max-width:1340px) {
+  .section4 {
+    display: block;
+  }
 }

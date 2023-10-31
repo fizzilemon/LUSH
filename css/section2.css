@@ -38,3 +38,8 @@ button {
   background-color: white;
 }
 
+@media screen and (min-width:800px) and (max-width:1200px) {
+  .section2 img {
+    width: 1000px;
+  }
+}

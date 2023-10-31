@@ -24,42 +24,39 @@ html {
   font-size: 2rem;
   font-weight: 900;
 }
-.item {
+.sec1__inner {
   display: flex;
   justify-content: center;
   align-items: center; /* flex-start */
   translate: 0 5% 0 0;
 }
-.item img {
+.sec1__inner img {
   flex: 1;
   /* width: 20rem; */
   height: 20rem;
   margin: 5rem 3rem;
 }
-.tex {
+.sec1__h-text {
   display: block;
   line-height: 3rem;
   font-weight: bold;
 }
-.item p {
+.sec1__inner p {
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
 }
 
 @media screen and (min-width:800px) and (max-width:1200px) {
-  .item {
+  .sec1__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
   }
-  .section2 > img {
-    width: 1000px;
-  }
 }
 @media screen and (max-width:800px) {
-  section, .item {
+  section, .sec1__inner {
     display: block;
     text-align: center;
     margin: 0 auto;

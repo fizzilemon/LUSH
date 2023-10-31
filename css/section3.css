@@ -12,7 +12,6 @@
 .section3 h2 {
   font-size: 1.3rem;
   font-weight: 600;
-  line-height: 3rem;
 }
 
 .section3 img {
@@ -48,16 +47,18 @@
     align-items: center;
     margin: 0 auto;
   }
-  .section3 > img {
-    /* width: 1000px; */
+  .sec3 img {
     width: 100%;
   }
 }
 @media screen and (max-width:800px) {
-  section, .item {
+  .section3, .item {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
+  }
+  .sec3 {
+    align-items: center;
   }
 }
