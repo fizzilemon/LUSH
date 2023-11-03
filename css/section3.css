@@ -3,8 +3,9 @@
   margin: 10rem 5rem;
   transition: all .35s;
 }
-.item {
+.sec3__inner {
   display: flex;
+  width: ;
 }
 .sec3 {
   margin: 5rem 1rem;
@@ -15,8 +16,25 @@
 }
 
 .section3 img {
-  flex: auto;
+  flex: 1;
   overflow: hidden;
+  object-fit: contain;
+}
+.section3 img:nth-child(1){
+  width: 39rem;
+  height: 56rem;
+}
+.section3 img:nth-child(2){
+  width: 28rem;
+  height: 32rem;
+}
+.section3 img:nth-child(3){
+  width: 39rem;
+  height: 43rem;
+}
+.section3 img:nth-child(4){
+  width: 39rem;
+  height: 56rem;
 }
 .section3 img:hover {
   cursor:pointer;
@@ -40,7 +58,7 @@
 
 /* section3 반응형 */
 @media screen and (min-width:800px) and (max-width:1400px) {
-  .item {
+  .sec3__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -52,7 +70,7 @@
   }
 }
 @media screen and (max-width:800px) {
-  .section3, .item {
+  .section3, .sec3__inner {
     display: flex;
     flex-wrap: wrap;
     text-align: center;

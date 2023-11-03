@@ -1,17 +1,13 @@
 body {
-  max-width: 1920px;
+  max-width: 1920rem;
   text-decoration: none;
   font-weight: normal;
   font-style: normal;
-  font-size: 10px;
-}
-html {
-  font-size: 10px; 
 }
 
 /* section1 */
 .section1 {
-  height: 60rem;
+  height: 10%;
   text-align: center;
 }
 .title {
@@ -32,18 +28,19 @@ html {
 }
 .sec1__inner img {
   flex: 1;
-  /* width: 20rem; */
-  height: 20rem;
+  width: 20rem;
+  /* height: 20rem; */
   margin: 5rem 3rem;
 }
 .sec1__h-text {
   display: block;
   line-height: 3rem;
-  font-weight: bold;
+  font-weight: 600;
 }
 .sec1__inner p {
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
+  margin-bottom: 10rem;
 }
 
 @media screen and (min-width:800px) and (max-width:1200px) {
